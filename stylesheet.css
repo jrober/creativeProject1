@@ -1,0 +1,43 @@
+div{
+	padding: 10px;
+}
+
+.container{
+	width:100%;
+	text-align: center;
+}
+
+.navbar{
+	display:flex;
+	float:right;
+	
+}
+
+.navbar li {
+    list-style-type: none;
+	padding: 10px;
+	display:inline;
+	margin:auto;
+	color:cornflowerblue;
+}
+
+#jumbotron{
+	align-content:flex-start; 
+	padding-bottom: 2em;
+}
+
+#mission-statement{
+	flex:1;
+}
+
+#general-overview{
+	flex:3;
+	text-align: justify;
+}
+#main{
+	display:flex;
+}
+
+h1{
+	text-align: center;
+}
