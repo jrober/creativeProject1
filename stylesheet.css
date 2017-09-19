@@ -41,3 +41,11 @@ div{
 h1{
 	text-align: center;
 }
+
+.pictures{
+	display:flex;
+}
+
+.person{
+	flex:1;
+}
