@@ -5,7 +5,6 @@ div{
 body{
     background-color:#d9e6f2;
     font-family: 'Roboto', sans-serif;
-
 }
 
 a{
@@ -14,7 +13,6 @@ a{
     border-color: lightblue;
     padding:10px;
     color:black;
-
 }
 
 a:visited{
@@ -36,7 +34,6 @@ li a:hover:not(.active) {
 .navbar{
 	display:flex;
 	float:right;
-	
 }
 
 .navbar li {
@@ -60,11 +57,14 @@ li a:hover:not(.active) {
 	flex:3;
 	text-align: justify;
     font-family: 'Roboto Condensed', sans-serif;
+    padding-bottom: 0;
+    margin-bottom:0;
+}
+#general-overview li{
+    padding-bottom: .5em;
 }
 #main{
-	display:flex;
     width:50%;
-    margin: auto;
 }
 
 h1{
@@ -74,14 +74,14 @@ h1{
     padding:2em;
 }
 
-.pictures{
-	display:flex;
-    padding-top:4em;
-    flex:2;
+img{
+
+    border-radius: 50%;
 }
 
-.person{
-	flex:1;
+
+#ford{
+    border-radius: 0px;
 }
 
 #holder{
